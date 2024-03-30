@@ -1,0 +1,30 @@
+@import url("style.css");
+
+a {
+    color: black;
+    visibility: hidden;
+}
+.printhide {
+  visibility: hidden;
+}
+* {
+  font-family: georgia;
+  font-size: 0.95em;
+}
+div.main {
+  width:600px;
+  margin: auto;
+}
+span.date {
+    float: right;
+    text-align: right;
+}
+span.print-button {
+    visibility:hidden;
+}
+span.author_icon {
+	display: none;
+}
+.hide_for_print {
+	display: none;
+}
